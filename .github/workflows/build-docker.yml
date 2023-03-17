@@ -42,7 +42,7 @@ jobs:
 
       # Update Version number
       - name: Update version file
-        uses: DamianReeves/write-file-action@v1.0
+        uses: DamianReeves/write-file-action@v1.2
         with:
           path: recipes/version.py
           contents: |
